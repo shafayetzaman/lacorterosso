@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import StoryHero from './StoryHero.jsx';
 
 // ===== IMPORT ABOUT IMAGES =====
-import cheese from './src/assets/about/cheese.webp';
-import spices from './src/assets/about/spices.webp';
-import chef from './src/assets/about/chef.webp';
-import restaurant from './src/assets/about/restaurant.webp';
+import cheese from '/src/assets/about/cheese.webp';
+import spices from '/src/assets/about/spices.webp';
+import chef from '/src/assets/about/chef.webp';
+import restaurant from '/src/assets/about/restaurant.webp';
 
 export default function About() {
   const [isVisible, setIsVisible] = useState({});
